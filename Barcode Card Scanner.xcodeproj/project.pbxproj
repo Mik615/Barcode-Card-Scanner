@@ -1,0 +1,401 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AEEFAF412058265E004C6DF4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEEFAF402058265E004C6DF4 /* AppDelegate.swift */; };
+		AEEFAF432058265E004C6DF4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEEFAF422058265E004C6DF4 /* ViewController.swift */; };
+		AEEFAF462058265E004C6DF4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AEEFAF442058265E004C6DF4 /* Main.storyboard */; };
+		AEEFAF482058265E004C6DF4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AEEFAF472058265E004C6DF4 /* Assets.xcassets */; };
+		AEEFAF4B2058265E004C6DF4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AEEFAF492058265E004C6DF4 /* LaunchScreen.storyboard */; };
+		AEEFAF58205827A1004C6DF4 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEEFAF57205827A1004C6DF4 /* SettingsViewController.swift */; };
+		AEEFAF5A205827C5004C6DF4 /* SocialMediaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEEFAF59205827C5004C6DF4 /* SocialMediaViewController.swift */; };
+		AEEFAF5C205827D3004C6DF4 /* AddCardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEEFAF5B205827D3004C6DF4 /* AddCardViewController.swift */; };
+		AEEFAF5E205827E6004C6DF4 /* ViewCardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEEFAF5D205827E6004C6DF4 /* ViewCardViewController.swift */; };
+		AEEFAF60205827F3004C6DF4 /* ScannerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEEFAF5F205827F3004C6DF4 /* ScannerViewController.swift */; };
+		AEEFAF6320582810004C6DF4 /* ManualAddViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEEFAF6220582810004C6DF4 /* ManualAddViewController.swift */; };
+		AEEFAF6720582B06004C6DF4 /* 001-cogwheel.png in Resources */ = {isa = PBXBuildFile; fileRef = AEEFAF6420582B06004C6DF4 /* 001-cogwheel.png */; };
+		AEEFAF6820582B06004C6DF4 /* 003-plus.png in Resources */ = {isa = PBXBuildFile; fileRef = AEEFAF6520582B06004C6DF4 /* 003-plus.png */; };
+		AEEFAF6920582B06004C6DF4 /* 002-facebook.png in Resources */ = {isa = PBXBuildFile; fileRef = AEEFAF6620582B06004C6DF4 /* 002-facebook.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		AEEFAF3D2058265E004C6DF4 /* Barcode Card Scanner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Barcode Card Scanner.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AEEFAF402058265E004C6DF4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AEEFAF422058265E004C6DF4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AEEFAF452058265E004C6DF4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AEEFAF472058265E004C6DF4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AEEFAF4A2058265E004C6DF4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AEEFAF4C2058265E004C6DF4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AEEFAF57205827A1004C6DF4 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		AEEFAF59205827C5004C6DF4 /* SocialMediaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocialMediaViewController.swift; sourceTree = "<group>"; };
+		AEEFAF5B205827D3004C6DF4 /* AddCardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddCardViewController.swift; sourceTree = "<group>"; };
+		AEEFAF5D205827E6004C6DF4 /* ViewCardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewCardViewController.swift; sourceTree = "<group>"; };
+		AEEFAF5F205827F3004C6DF4 /* ScannerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScannerViewController.swift; sourceTree = "<group>"; };
+		AEEFAF6220582810004C6DF4 /* ManualAddViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ManualAddViewController.swift; sourceTree = "<group>"; };
+		AEEFAF6420582B06004C6DF4 /* 001-cogwheel.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "001-cogwheel.png"; sourceTree = "<group>"; };
+		AEEFAF6520582B06004C6DF4 /* 003-plus.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "003-plus.png"; sourceTree = "<group>"; };
+		AEEFAF6620582B06004C6DF4 /* 002-facebook.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "002-facebook.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AEEFAF3A2058265E004C6DF4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AEEFAF342058265E004C6DF4 = {
+			isa = PBXGroup;
+			children = (
+				AEEFAF3F2058265E004C6DF4 /* Barcode Card Scanner */,
+				AEEFAF3E2058265E004C6DF4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AEEFAF3E2058265E004C6DF4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AEEFAF3D2058265E004C6DF4 /* Barcode Card Scanner.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AEEFAF3F2058265E004C6DF4 /* Barcode Card Scanner */ = {
+			isa = PBXGroup;
+			children = (
+				AEEFAF56205826E0004C6DF4 /* Audio */,
+				AEEFAF552058269A004C6DF4 /* ViewControllers */,
+				AEEFAF5420582693004C6DF4 /* Classes */,
+				AEEFAF522058266C004C6DF4 /* Images */,
+				AEEFAF5320582678004C6DF4 /* Storyboards */,
+				AEEFAF4C2058265E004C6DF4 /* Info.plist */,
+			);
+			path = "Barcode Card Scanner";
+			sourceTree = "<group>";
+		};
+		AEEFAF522058266C004C6DF4 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				AEEFAF6420582B06004C6DF4 /* 001-cogwheel.png */,
+				AEEFAF6620582B06004C6DF4 /* 002-facebook.png */,
+				AEEFAF6520582B06004C6DF4 /* 003-plus.png */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		AEEFAF5320582678004C6DF4 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				AEEFAF442058265E004C6DF4 /* Main.storyboard */,
+				AEEFAF492058265E004C6DF4 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		AEEFAF5420582693004C6DF4 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				AEEFAF402058265E004C6DF4 /* AppDelegate.swift */,
+				AEEFAF472058265E004C6DF4 /* Assets.xcassets */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		AEEFAF552058269A004C6DF4 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				AEEFAF422058265E004C6DF4 /* ViewController.swift */,
+				AEEFAF57205827A1004C6DF4 /* SettingsViewController.swift */,
+				AEEFAF59205827C5004C6DF4 /* SocialMediaViewController.swift */,
+				AEEFAF5B205827D3004C6DF4 /* AddCardViewController.swift */,
+				AEEFAF5D205827E6004C6DF4 /* ViewCardViewController.swift */,
+				AEEFAF5F205827F3004C6DF4 /* ScannerViewController.swift */,
+				AEEFAF6220582810004C6DF4 /* ManualAddViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		AEEFAF56205826E0004C6DF4 /* Audio */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Audio;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AEEFAF3C2058265E004C6DF4 /* Barcode Card Scanner */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AEEFAF4F2058265E004C6DF4 /* Build configuration list for PBXNativeTarget "Barcode Card Scanner" */;
+			buildPhases = (
+				AEEFAF392058265E004C6DF4 /* Sources */,
+				AEEFAF3A2058265E004C6DF4 /* Frameworks */,
+				AEEFAF3B2058265E004C6DF4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Barcode Card Scanner";
+			productName = "Barcode Card Scanner";
+			productReference = AEEFAF3D2058265E004C6DF4 /* Barcode Card Scanner.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AEEFAF352058265E004C6DF4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Team SJM";
+				TargetAttributes = {
+					AEEFAF3C2058265E004C6DF4 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = AEEFAF382058265E004C6DF4 /* Build configuration list for PBXProject "Barcode Card Scanner" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AEEFAF342058265E004C6DF4;
+			productRefGroup = AEEFAF3E2058265E004C6DF4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AEEFAF3C2058265E004C6DF4 /* Barcode Card Scanner */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AEEFAF3B2058265E004C6DF4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AEEFAF4B2058265E004C6DF4 /* LaunchScreen.storyboard in Resources */,
+				AEEFAF482058265E004C6DF4 /* Assets.xcassets in Resources */,
+				AEEFAF6820582B06004C6DF4 /* 003-plus.png in Resources */,
+				AEEFAF462058265E004C6DF4 /* Main.storyboard in Resources */,
+				AEEFAF6920582B06004C6DF4 /* 002-facebook.png in Resources */,
+				AEEFAF6720582B06004C6DF4 /* 001-cogwheel.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AEEFAF392058265E004C6DF4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AEEFAF60205827F3004C6DF4 /* ScannerViewController.swift in Sources */,
+				AEEFAF5A205827C5004C6DF4 /* SocialMediaViewController.swift in Sources */,
+				AEEFAF5E205827E6004C6DF4 /* ViewCardViewController.swift in Sources */,
+				AEEFAF5C205827D3004C6DF4 /* AddCardViewController.swift in Sources */,
+				AEEFAF432058265E004C6DF4 /* ViewController.swift in Sources */,
+				AEEFAF412058265E004C6DF4 /* AppDelegate.swift in Sources */,
+				AEEFAF6320582810004C6DF4 /* ManualAddViewController.swift in Sources */,
+				AEEFAF58205827A1004C6DF4 /* SettingsViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		AEEFAF442058265E004C6DF4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AEEFAF452058265E004C6DF4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AEEFAF492058265E004C6DF4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AEEFAF4A2058265E004C6DF4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AEEFAF4D2058265E004C6DF4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AEEFAF4E2058265E004C6DF4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AEEFAF502058265E004C6DF4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Barcode Card Scanner/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.michael-marc.Barcode-Card-Scanner";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AEEFAF512058265E004C6DF4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Barcode Card Scanner/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.michael-marc.Barcode-Card-Scanner";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AEEFAF382058265E004C6DF4 /* Build configuration list for PBXProject "Barcode Card Scanner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AEEFAF4D2058265E004C6DF4 /* Debug */,
+				AEEFAF4E2058265E004C6DF4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AEEFAF4F2058265E004C6DF4 /* Build configuration list for PBXNativeTarget "Barcode Card Scanner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AEEFAF502058265E004C6DF4 /* Debug */,
+				AEEFAF512058265E004C6DF4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AEEFAF352058265E004C6DF4 /* Project object */;
+}
