@@ -18,9 +18,12 @@
 		AEEFAF5E205827E6004C6DF4 /* ViewCardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEEFAF5D205827E6004C6DF4 /* ViewCardViewController.swift */; };
 		AEEFAF60205827F3004C6DF4 /* ScannerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEEFAF5F205827F3004C6DF4 /* ScannerViewController.swift */; };
 		AEEFAF6320582810004C6DF4 /* ManualAddViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEEFAF6220582810004C6DF4 /* ManualAddViewController.swift */; };
-		AEEFAF6720582B06004C6DF4 /* 001-cogwheel.png in Resources */ = {isa = PBXBuildFile; fileRef = AEEFAF6420582B06004C6DF4 /* 001-cogwheel.png */; };
-		AEEFAF6820582B06004C6DF4 /* 003-plus.png in Resources */ = {isa = PBXBuildFile; fileRef = AEEFAF6520582B06004C6DF4 /* 003-plus.png */; };
-		AEEFAF6920582B06004C6DF4 /* 002-facebook.png in Resources */ = {isa = PBXBuildFile; fileRef = AEEFAF6620582B06004C6DF4 /* 002-facebook.png */; };
+		AEEFAF7020594BFC004C6DF4 /* facebook.png in Resources */ = {isa = PBXBuildFile; fileRef = AEEFAF6A20594BFB004C6DF4 /* facebook.png */; };
+		AEEFAF7120594BFC004C6DF4 /* audio.png in Resources */ = {isa = PBXBuildFile; fileRef = AEEFAF6B20594BFB004C6DF4 /* audio.png */; };
+		AEEFAF7220594BFC004C6DF4 /* add.png in Resources */ = {isa = PBXBuildFile; fileRef = AEEFAF6C20594BFB004C6DF4 /* add.png */; };
+		AEEFAF7320594BFC004C6DF4 /* about.png in Resources */ = {isa = PBXBuildFile; fileRef = AEEFAF6D20594BFB004C6DF4 /* about.png */; };
+		AEEFAF7420594BFC004C6DF4 /* settings.png in Resources */ = {isa = PBXBuildFile; fileRef = AEEFAF6E20594BFC004C6DF4 /* settings.png */; };
+		AEEFAF7520594BFC004C6DF4 /* cloud.png in Resources */ = {isa = PBXBuildFile; fileRef = AEEFAF6F20594BFC004C6DF4 /* cloud.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,9 +40,12 @@
 		AEEFAF5D205827E6004C6DF4 /* ViewCardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewCardViewController.swift; sourceTree = "<group>"; };
 		AEEFAF5F205827F3004C6DF4 /* ScannerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScannerViewController.swift; sourceTree = "<group>"; };
 		AEEFAF6220582810004C6DF4 /* ManualAddViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ManualAddViewController.swift; sourceTree = "<group>"; };
-		AEEFAF6420582B06004C6DF4 /* 001-cogwheel.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "001-cogwheel.png"; sourceTree = "<group>"; };
-		AEEFAF6520582B06004C6DF4 /* 003-plus.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "003-plus.png"; sourceTree = "<group>"; };
-		AEEFAF6620582B06004C6DF4 /* 002-facebook.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "002-facebook.png"; sourceTree = "<group>"; };
+		AEEFAF6A20594BFB004C6DF4 /* facebook.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = facebook.png; sourceTree = "<group>"; };
+		AEEFAF6B20594BFB004C6DF4 /* audio.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = audio.png; sourceTree = "<group>"; };
+		AEEFAF6C20594BFB004C6DF4 /* add.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = add.png; sourceTree = "<group>"; };
+		AEEFAF6D20594BFB004C6DF4 /* about.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = about.png; sourceTree = "<group>"; };
+		AEEFAF6E20594BFC004C6DF4 /* settings.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = settings.png; sourceTree = "<group>"; };
+		AEEFAF6F20594BFC004C6DF4 /* cloud.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cloud.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,9 +91,12 @@
 		AEEFAF522058266C004C6DF4 /* Images */ = {
 			isa = PBXGroup;
 			children = (
-				AEEFAF6420582B06004C6DF4 /* 001-cogwheel.png */,
-				AEEFAF6620582B06004C6DF4 /* 002-facebook.png */,
-				AEEFAF6520582B06004C6DF4 /* 003-plus.png */,
+				AEEFAF6D20594BFB004C6DF4 /* about.png */,
+				AEEFAF6C20594BFB004C6DF4 /* add.png */,
+				AEEFAF6B20594BFB004C6DF4 /* audio.png */,
+				AEEFAF6F20594BFC004C6DF4 /* cloud.png */,
+				AEEFAF6A20594BFB004C6DF4 /* facebook.png */,
+				AEEFAF6E20594BFC004C6DF4 /* settings.png */,
 			);
 			path = Images;
 			sourceTree = "<group>";
@@ -190,12 +199,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AEEFAF7520594BFC004C6DF4 /* cloud.png in Resources */,
+				AEEFAF7420594BFC004C6DF4 /* settings.png in Resources */,
 				AEEFAF4B2058265E004C6DF4 /* LaunchScreen.storyboard in Resources */,
+				AEEFAF7020594BFC004C6DF4 /* facebook.png in Resources */,
 				AEEFAF482058265E004C6DF4 /* Assets.xcassets in Resources */,
-				AEEFAF6820582B06004C6DF4 /* 003-plus.png in Resources */,
+				AEEFAF7220594BFC004C6DF4 /* add.png in Resources */,
 				AEEFAF462058265E004C6DF4 /* Main.storyboard in Resources */,
-				AEEFAF6920582B06004C6DF4 /* 002-facebook.png in Resources */,
-				AEEFAF6720582B06004C6DF4 /* 001-cogwheel.png in Resources */,
+				AEEFAF7120594BFC004C6DF4 /* audio.png in Resources */,
+				AEEFAF7320594BFC004C6DF4 /* about.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
